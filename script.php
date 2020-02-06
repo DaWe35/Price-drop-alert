@@ -1,5 +1,7 @@
 <?php
 include 'config.php';
+ignore_user_abort(true);
+set_time_limit(0);
 
 function curl_get($url) {
 	$ch = curl_init();
