@@ -59,7 +59,7 @@ while ($wait) {
     }
 }
 
-print_r($prices);
+print_r($response);
 
 $sendMail = false;
 $mailtext = '';
